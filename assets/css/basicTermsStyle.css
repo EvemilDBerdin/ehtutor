@@ -1,0 +1,165 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	/*background-color: #24252A;*/
+}
+
+body {
+	background-color: #ffffff;
+	font-family: Arial;
+	font-size: 16px;
+}
+
+.main_Header {
+	background-color: rgba(31, 33, 33);
+	border-bottom: 1px solid orange;
+}
+
+li, a, button {
+	font-weight: 500;
+	color: #edf0f1;
+	text-decoration: none;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 5%;
+}
+
+.logo_Container h3 {
+	color: #ffffff;
+	float: right;
+	margin-top: 18px;
+	margin-left: 15px;
+	font-family: AdultHumanMale;
+}
+
+.logo {
+	cursor: pointer;
+	border-radius: 100%;
+}
+
+.nav_links {
+	list-style: none;
+}
+
+.nav_links li {
+	display: inline-block;
+	padding: 8px 20px;
+}
+
+.nav_links li a {
+	font-size: 16px;
+	transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+	background-color: rgb(227, 125, 16);
+	padding: 8px 25px;
+	border-radius: 18px;
+	font-weight: 500;
+	color: #ffffff;
+}
+
+input[type="search"] {
+	border: none;
+	padding: 7px 15px;
+	border-radius: 15px;
+}
+
+input[type="search"]:hover {
+	border: 2px solid rgba(227, 125, 16);
+}
+
+#mainSection {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+}
+
+.contentCover {
+	width: 45%;
+	padding: 15px;
+}
+
+details {
+	margin-bottom: 15px;
+	background-color: #cccccc;
+	padding: 18px;
+	border-radius: 15px;
+	transition: all 0.3s ease 0s;
+	box-shadow: 2px 2px 5px 1.5px #000000;
+}
+
+details:hover {
+	background-color: rgb(227, 125, 16);
+	padding: 30px;
+	border-radius: 18px;
+	font-weight: 800;
+	color: #ffffff;
+}
+
+details p {
+	background-color: rgba(31, 33, 33);
+	color: #ffffff;
+	padding: 25px;
+	font-family: Consolas;
+	border-radius: 15px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.content summary {
+	font-family: Consolas;
+	list-style: none;
+}
+
+.content summary:hover {
+	cursor: pointer;
+}
+
+#mainFooter {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	background-color: #1C284C;
+}
+
+.mainSection {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.footerContent {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 30px;
+	color: #ffffff;
+}
+
+.footerContent h3 {
+	font-size: 12px;
+	letter-spacing: 1.5px;
+	margin-bottom: 20px;
+}
+
+.footerContent h4 {
+	font-size: 13px;
+}
+
+.content1 {
+	padding: 20px;
+}
+
+.content1 a {
+	display: block;
+	margin: 10px;
+	font-size: 13px;
+}

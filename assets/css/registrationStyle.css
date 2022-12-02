@@ -1,0 +1,261 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #cccccc; 
+	font-size: 16px;
+	font-family: Consolas;
+}
+
+.mainHeader {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: rgba(31, 33, 33);
+	padding: 30px;
+}
+
+.attendance {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-right: 200px;
+}
+
+.attendance i {
+	font-size: 35px;
+	color: #ffffff;
+}
+
+.attendance h1 {
+	color: #ffffff;
+	font-size: 35px;
+	font-family: Arial;
+}
+
+.merged {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.backToLogin {
+	border: 1px solid #ffffff;
+	border-radius: 35px;
+	padding: 12px 20px;
+	margin-right: 30px;
+}
+
+.backToLogin h2 {
+	color: #ffffff;
+	font-family: Arial;
+	font-size: 15px;
+}
+
+.backToLogin i {
+	font-size: 16px;
+	color: #ffffff;
+	margin-right: 3px;
+}
+
+.backToLogin a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.backToLogin:hover {
+	background-color: rgb(227, 125, 16);
+	transition: all 0.3s ease 0s;
+	border-radius: 35px;
+	cursor: pointer;
+}
+
+.needHelp {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border: 1px solid #ffffff;
+	border-radius: 35px;
+	padding: 12px 20px;
+}
+
+.needHelp i {
+	font-size: 16px;
+	color: #ffffff;
+	margin-right: 3px;
+}
+
+.needHelp h2 {
+	color: #ffffff;
+	font-family: Arial;
+	font-size: 15px;
+}
+
+.needHelp a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.needHelp:hover {
+	background-color: rgb(227, 125, 16);
+	transition: all 0.3s ease 0s;
+	border-radius: 35px;
+	cursor: pointer;
+}
+
+#mainSection {
+	margin-top: 50px;
+}
+
+.userInputs {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.userInputs h2 {
+	font-size: 35px;
+	color: #4B5563;
+	font-family: Arial;
+}
+
+.userInputs p {
+	font-size: 17px;
+	color: #4B5563;
+	font-family: Arial;
+}
+
+.horizon1 input {
+	padding: 8px;
+	border-radius: 6px;
+	border: 2px solid #A1A1AA;
+	width: 195px;
+}
+
+.horizon2 input {
+	padding: 8px;
+	border-radius: 6px;
+	border: 2px solid #A1A1AA;
+	width: 195px;
+}
+
+.horizon3 input {
+	padding: 8px;
+	border-radius: 6px;
+	border: 2px solid #A1A1AA;
+	width: 195px;
+}
+
+::placeholder {
+	font-size: 16px;
+	color: #A1A1AA;
+}
+
+.horizon1 input:hover,.horizon2 input:hover,.horizon3 input:hover {
+	box-shadow: 5px 10px 12px -5px rgb(31, 33, 33);
+	transition: all 0.3s ease 0s;
+}
+
+#submitButton button {
+	width: 13%;
+	padding: 10px;
+	border: none;
+	border-radius: 6px;
+	color: #ffffff;
+	background-color: rgba(31, 33, 33);
+	box-shadow: 2px 4px 10px 2px red; 
+}
+
+#submitButton button:hover {
+	background-color: #E37D10;
+	transition: all 0.3s ease 0s;
+}
+
+#submitButton button:active {
+	background-color: red;
+	box-shadow: 2px 4px 10px 2px #E37D10; 
+}
+
+input[type="submit"] {
+	border: none;
+	background-color: rgb(13, 148, 136);
+	color: #ffffff;
+	font-size: 15px;
+	background: transparent;
+}
+
+#mainFooter {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 90px;
+	background-color: rgba(31, 33, 33);
+	font-family: Arial;
+}
+
+.footerContent {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 30px;
+	color: #ffffff;
+}
+
+.footerContent h3 {
+	font-size: 12px;
+	letter-spacing: 1.5px;
+	margin-bottom: 20px;
+}
+
+.footerContent h4 {
+	font-size: 13px;
+}
+
+.content1 {
+	padding: 50px;
+}
+
+.content1 a {
+	display: block;
+	margin: 10px;
+	font-size: 13px;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.contentFooter {
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	background-color: #263257;
+	padding: 35px;
+}
+
+.contentFooter .logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contentFooter .logo h3 {
+	color: #ffffff;
+	font-size: 13px;
+	margin-left: 5px;
+}
+
+.contentFooter a {
+	font-size: 12.5px;
+	text-decoration: none;
+	color: #ffffff;
+	padding: 15px;
+}
+
+.contentFooter p {
+	display: inline;
+	color: #ffffff;
+	font-size: 13px;
+}

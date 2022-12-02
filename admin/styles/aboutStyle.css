@@ -1,0 +1,227 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #cccccc;
+	font-family: Arial;
+	font-size: 16px;
+}
+
+.main_Header {
+	background-color: rgba(31, 33, 33);
+	border-bottom: 1px solid orange;
+}
+
+li, a, button {
+	font-weight: 500;
+	color: #edf0f1;
+	text-decoration: none;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 5%;
+}
+
+.logo_Container h3 {
+	color: #ffffff;
+	float: right;
+	margin-top: 18px;
+	margin-left: 15px;
+	font-family: AdultHumanMale;
+}
+
+.logo {
+	cursor: pointer;
+	border-radius: 100%;
+}
+
+.nav_links {
+	list-style: none;
+}
+
+.nav_links li {
+	display: inline-block;
+	padding: 8px 20px;
+}
+
+.nav_links li a {
+	font-size: 16px;
+	transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+	background-color: rgb(227, 125, 16);
+	padding: 8px 25px;
+	border-radius: 18px;
+	font-weight: 500;
+	color: #ffffff;
+}
+
+input[type="search"] {
+	border: none;
+	padding: 7px 15px;
+	border-radius: 15px;
+}
+
+input[type="search"]:hover {
+	border: 2px solid rgba(227, 125, 16);
+}
+
+#mainSection {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.mainContent {
+	background-color: rgba(31, 33, 33);
+	padding: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #ffffff;
+	border-radius: 15px;
+	box-shadow: 2px 4px 10px 2px #E37D10;
+}
+
+.mainContent .image img {
+	border-radius: 50%;
+	margin-right: 35px;
+	box-shadow: 2px 4px 10px 2px #E37D10;
+	display: block;
+}
+
+.mainContent .image {
+	width: 100%;
+}
+
+.mainContent .image center {
+	margin-top: 20px;
+}
+
+.mainContent .aboutMe h2 {
+	font-size: 30px;
+	font-family: AdultHumanMale;
+	letter-spacing: 1.5px;
+	text-align: center;
+	margin-right: 110px;
+	margin-bottom: 30px;
+	border-bottom: 2px solid #E37D10;
+	padding-bottom: 3px;
+}
+
+.mainContent .aboutMe h4 {
+	font-family: Arial;
+	letter-spacing: 1.2px;
+	font-weight: 500;
+}
+
+.mainContent .aboutMe a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.mainContent .aboutMe p {
+	font-family: AdultHumanMale;
+	font-size: 17px;
+	margin-top: 30px;
+}
+
+.mainContent .aboutMe button {
+	background-color: rgb(31, 33, 33);
+    border-style: none;
+    padding: 10px 20px;
+    transition: 0.2s ease;
+    box-shadow: 2px 4px 10px 2px #E37D10;
+}
+
+.mainContent .aboutMe button a {
+	color: #ffffff;
+    text-decoration: none; 
+    font-size: 15px;
+    font-family: AdultHumanMale;
+}
+
+.mainContent .aboutMe button:hover {
+	background: #E37D10;
+}
+
+#mainFooter {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	background-color: rgba(31, 33, 33);
+}
+
+.footerContent {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 30px;
+	color: #ffffff;
+}
+
+.footerContent h3 {
+	font-size: 12px;
+	letter-spacing: 1.5px;
+	margin-bottom: 20px;
+}
+
+.footerContent h4 {
+	font-size: 13px;
+}
+
+.content1 {
+	padding: 50px;
+}
+
+.content1 a {
+	display: block;
+	margin: 10px;
+	font-size: 13px;
+}
+
+.contentFooter {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	background-color: #263257;
+	padding: 35px;
+}
+
+.contentFooter .logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contentFooter .logo h3 {
+	color: #ffffff;
+	font-size: 13px;
+	margin-left: 5px;
+}
+
+.contentFooter a {
+	font-size: 12.5px;
+	text-decoration: none;
+	color: #ffffff;
+	padding: 15px;
+}
+
+.contentFooter p {
+	display: inline;
+	color: #ffffff;
+	font-size: 13px;
+}

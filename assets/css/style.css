@@ -1,0 +1,139 @@
+body {
+	font-family: Verdana;
+	font-size: 16px;
+	background-image: url('../Images/darkBackground.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.form-outside-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 45px;
+}
+
+.student-logo img {
+	border-radius: 50%;
+}
+
+.student-logo img:hover {
+	transform: scale(1.2);
+	cursor: pointer;
+	transition: all 0.5s ease 0s;
+}
+
+.student-logo {
+	margin: 50px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.student-logo h3 {
+	font-style: italic;
+}
+
+.form-inside-container {
+	background-color: rgba(29, 32, 30, 0.6);
+	padding: 30px;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 30px;
+	display: flex;
+	justify-content: center;
+	box-shadow: 10px 15px 20px -10px blue;
+}
+
+form {
+	text-align: center;
+	padding: 20px;
+}
+
+form h4 {
+	color: #ffffff;
+	font-style: italic;
+}
+
+label {
+	font-style: italic;
+	font-weight: 600;
+	color: #ffffff;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="tel"] {
+	border: none;
+	padding: 10px;
+	border-radius: 15px;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+input[type="text"]:hover, input[type="email"]:hover, 
+input[type="password"]:hover, input[type="tel"]:hover {
+	transform: scale(1.2);
+	transition: all 0.5s ease 0s;
+	box-shadow: 10px 15px 20px -10px #E37D10;
+}
+
+input[type="submit"] {
+	border: none;
+	border-radius: 15px;
+	padding: 10px 25px;
+	margin-top: 20px;
+	font-weight: 600;
+	font-style: italic;
+	background-color: #826C1E;
+	color: #ffffff;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+input[type="submit"]:hover {
+	background-color: #E37D10;
+	cursor: pointer;
+}
+
+input[type="reset"], select[name="gender"] {
+	border: none;
+	border-radius: 15px;
+	padding: 10px 25px;
+	font-weight: 600;
+	font-style: italic;
+	background-color: rgba(31, 33, 33);
+	color: #ffffff;
+	box-shadow: 10px 15px 20px -10px #E37D10;
+}
+
+input[type="reset"]:hover, select[name="gender"]:hover {
+	background-color: #E37D10;
+	cursor: pointer;
+	transition: all 0.5s ease 0s;
+}
+
+button {
+	border: none;
+	border-radius: 15px;
+	padding: 10px 25px;
+	font-weight: 600;
+	font-style: italic;
+	background-color: rgba(31, 33, 33);
+	color: #ffffff;
+	box-shadow: 10px 15px 20px -10px #E37D10;
+}
+
+button:hover {
+	background-color: #E37D10;
+	cursor: pointer;
+	transition: all 0.5s ease 0s;
+}
+
+input[type="text"]::placeholder, input[type="email"]::placeholder, 
+input[type="password"]::placeholder, input[type="tel"]::placeholder {
+	text-align: center;
+	font-style: italic;
+}
